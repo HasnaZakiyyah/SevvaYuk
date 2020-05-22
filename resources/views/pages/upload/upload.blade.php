@@ -30,10 +30,10 @@
 						<input type="file" name="file">
 					</div>
  
-					<input type="submit" value="Upload" class="btn btn-primary">
+					<input type="submit" value="Upload" class="btn btn-outline-dark">
 				</form>
 				
-				<h4 class="my-5">Data</h4>
+				<h4 class="my-5">Show Image</h4>
  
 				<table class="table table-bordered table-striped">
 					<thead>
@@ -51,8 +51,8 @@
 						@endforeach
 					</tbody>
                 </table>
-                <a href="{{action('TransactionController@transaction') }}"
-class="btn btn-primary center" >Kembali</a>
+                <a href="{{action('TransactionController@status') }}"
+class="btn btn-outline-dark" >Lanjutkan</a>
 </div>
 			</div>
 		</div>

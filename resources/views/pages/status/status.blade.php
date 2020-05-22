@@ -9,16 +9,18 @@
 <h2 align="center" >Status Pembayaran</h2><br />
 <div class="row">
   <div class="col-sm-4"></div>
-  <div class="col-sm-4">
-      <table width="500px" align="center" class ="table" >
+  <div class="col-sm-3">
+      <table width="1000px" align="center" class ="table" >
     <tr>
     <td>Kode Transaksi</td>
         <td>:</td>
-        <td></td>
+        <td>005142</td>
 <tr>
 <td>Nomor Pembayaran</td>
         <td>:</td>
-        <td><div class="row">
+        <td>002201480433200093</td>
+        <td>Bank BRI</td>    
+        <div class="row">
   <div class="row-sm-4"></div>
   <div class="row-sm-4"></div></td>
         
@@ -31,7 +33,7 @@
 <tr>
     <td>Status Pembayaran</td>
         <td>:</td>
-        <td></td>
+        <td>Belum Terbayar</td>
 </tr>
 </table>
 </div>
@@ -41,14 +43,14 @@
 <tr>
     <td> <div>
 <a href="{{action('TransactionController@transaction') }}"
-class="btn btn-primary">Kembali</a>
+class="btn btn-outline-dark">Kembali</a>
 </div>
 </td>
 <td></td>
 <td>
 <div>
 <a href="{{action('UploadController@upload') }}"
-class="btn btn-primary">Upload Bukti Pembayaran</a>
+class="btn btn-outline-dark">Upload Bukti Pembayaran</a>
 </div>
 </td>
 </tr>

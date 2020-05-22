@@ -17,18 +17,13 @@
     <td>Kode Transaksi</td>
         <td>:</td>
         <td>005142</td>
+
 <tr>
-<td>Nama Barang</td>
-        <td>:</td>
-        <td>Speaker JMMI<div class="row">
-  <div class="row-sm-4"></div>
-  <div class="row-sm-4"></div></td>
-        
-</tr>
-<tr>
-    <td>Harga</td>
-        <td>:</td>
-        <td>Rp. 40.000,-</td>
+<tr class="order-total">
+     <td>Total</td>
+     <td > : </td>
+     <td >  </td>
+ </tr>
 </tr>
 <tr>
 <td>Pembayaran melalui </td>
@@ -45,6 +40,7 @@
     </select>
 </div>
 </div>  </td>
+</tr>
 </table>
 
 </div>
@@ -52,9 +48,17 @@
 </div>
 <div class="row">
 <div class="col-md-5"></div>
-<div class="form-group col-md-4">
-<button type="submit"  class="btn btn-success" style="margin-left:38px">Lanjutkan</button>
+<div class="form-group col-md-2">
+<div class="payment-method">
 </div>
+<div class="payment-accordion">
+                                <div class="order-button-payment">
+                                    <input type="hidden" name="_method" value="">
+                                    <input value="Status Pesanan" type="submit">
+                                </div>
+                            </div>
+                        </div>
+
 </div>
 
 
