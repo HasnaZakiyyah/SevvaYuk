@@ -64,7 +64,7 @@ class CheckoutController extends Controller
             $carts[$i]->delete();
         }
 
-        return view('pages.transaction.transaction');
+        return Redirect::to('account/orders');
     }
 
     /**
