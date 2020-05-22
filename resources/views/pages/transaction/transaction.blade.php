@@ -22,9 +22,7 @@
 <tr class="order-total">
      <td>Total</td>
      <td > : </td>
-     @foreach ($orders as $order)
-     <td > @currency($order->amount) untuk {{ $order->details->count() }} barang </td>
-     @endforeach
+  
      <td >  </td>
  </tr>
 </tr>
