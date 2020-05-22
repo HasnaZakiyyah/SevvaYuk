@@ -50,6 +50,16 @@ Route::get('/admin/logout', 'AdminController@logout');
 
 Route::get('/admin/home', 'AdminController@index')->name('home');
 
+Route::get('/transaction', 'TransactionController@transaction');
+Route::post('/save', 'TransactionController@save');
+
+Route::get('/status', 'TransactionController@status');
+
+Route::get('/uploadbukti', 'UploadController@upload');
+Route::post('/uploadproses', 'UploadController@proses_upload');
+
+Route::get('/upload/hapus/{id}', 'UploadController@hapus');
+
 //Transaction
 /*Route::resource('transaction', 'TransactionController')->only([
     'index'

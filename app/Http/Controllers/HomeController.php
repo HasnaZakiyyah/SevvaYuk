@@ -20,7 +20,7 @@ class HomeController extends Controller
 
     public function search(Request $request) 
     {
-        $shops = Shop::where('name', 'like', '%'. $request->search .'%')->paginate(9);
-        return view('pages.shop.index')->with('shops', $shops);
+        return view('pages.transaction.transaction');
+        
     }
 }
